@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+}
+
+.background {
+  background-color: rgb(128, 222, 128);
+  height: 100vh;
+  transform: skewY(-15deg) translateY(-30vh);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

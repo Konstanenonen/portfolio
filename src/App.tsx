@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import Hero from "./components/Hero";
 
 function App(): JSX.Element {
   return (
     <div className="App">
-      <div>test</div>
+      <Hero />
       <div>test</div>
       <div>test</div>
     </div>
