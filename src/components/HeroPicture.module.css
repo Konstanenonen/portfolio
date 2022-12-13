@@ -13,6 +13,7 @@
   width: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 9999;
+  animation: 0.5s entrance-up 1 ease-in;
 }
 
 .textArea {
@@ -20,6 +21,7 @@
   height: 60vh;
   padding: 50px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  animation: 0.5s entrance-right 1 ease-in;
 }
 
 .textArea > h2 {
@@ -29,4 +31,28 @@
 
 .textArea > p {
   font-size: 1.5rem;
+}
+
+@keyframes entrance-up {
+  from {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes entrance-right {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
