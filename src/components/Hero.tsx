@@ -4,7 +4,7 @@ import HeroPicture from "./HeroPicture";
 
 function Hero(): JSX.Element {
   return (
-    <div>
+    <div className={Styles.container}>
       <div className={Styles.background}></div>
       <HeroPicture />
     </div>

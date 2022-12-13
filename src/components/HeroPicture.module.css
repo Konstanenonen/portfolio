@@ -8,11 +8,24 @@
   align-items: center;
 }
 
+.imageContainer {
+  position: relative;
+}
+
 .image {
   height: 70vh;
   width: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 9999;
+  animation: 0.5s entrance-up 1 ease-in;
+}
+
+.title {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  font-size: 5rem;
+  color: white;
   animation: 0.5s entrance-up 1 ease-in;
 }
 

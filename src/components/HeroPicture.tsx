@@ -5,11 +5,14 @@ import code from "../images/code.jpg";
 function HeroPicture(): JSX.Element {
   return (
     <div className={Styles.container}>
-      <img
-        className={Styles.image}
-        src={code}
-        alt="computer screen with React code"
-      />
+      <div className={Styles.imageContainer}>
+        <img
+          className={Styles.image}
+          src={code}
+          alt="computer screen with React code"
+        />
+        <h1 className={Styles.title}>Konsta Nenonen</h1>
+      </div>
       <div className={Styles.textArea}>
         <h2>About me</h2>
         <p>
