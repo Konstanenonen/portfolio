@@ -4,4 +4,29 @@
   left: 10vw;
   height: 70vh;
   width: 80vw;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  height: 70vh;
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 9999;
+}
+
+.textArea {
+  background-color: white;
+  height: 60vh;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.textArea > h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.textArea > p {
+  font-size: 1.5rem;
 }
