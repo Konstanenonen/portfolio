@@ -25,10 +25,7 @@ function HeroPicture(): JSX.Element {
           mollitia! Quo, illo consequatur dolorem consectetur quisquam impedit
           obcaecati quos pariatur ratione repellendus eum voluptatibus
           voluptatem molestiae laborum, tenetur perferendis, corporis numquam
-          quia ipsum nobis animi. Temporibus ut quod culpa! Voluptate
-          repellendus possimus corporis ea aspernatur earum in modi voluptatem
-          deleniti reprehenderit? Pariatur ad beatae cumque ullam reprehenderit
-          dolores non a, debitis, praesentium rem quaerat esse.
+          quia ipsum nobis animi.
         </p>
         <div className={Styles.iconArea}>
           <a href="https://github.com/Konstanenonen">

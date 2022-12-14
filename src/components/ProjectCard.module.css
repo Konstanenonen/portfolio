@@ -1,0 +1,39 @@
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image {
+  width: 100%;
+}
+
+.textArea {
+  padding: 20px;
+}
+
+.textArea > p {
+  font-size: 1.2rem;
+}
+
+.titleLevel {
+  display: flex;
+  gap: 10px;
+}
+
+.titleLevel > a {
+  font-size: 2rem;
+  transition: transform 0.5s;
+}
+
+.titleLevel > a:visited {
+  color: black;
+}
+
+.titleLevel > a:hover {
+  transform: translateY(-10px) scale(1.5);
+}
+
+.titleLevel > h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  flex: 1;
+}

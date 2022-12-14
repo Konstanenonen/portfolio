@@ -10,7 +10,7 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10vh 5vw;
+  gap: 50px 35px;
 }
 
 .title {

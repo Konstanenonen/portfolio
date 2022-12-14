@@ -1,17 +1,18 @@
 import React from "react";
 import Styles from "./ProjectArea.module.css";
+import ProjectCard from "./ProjectCard";
 
 function ProjectArea(): JSX.Element {
   return (
     <div className={Styles.container}>
       <h2 className={Styles.title}>My Work</h2>
       <div className={Styles.grid}>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
       </div>
     </div>
   );
