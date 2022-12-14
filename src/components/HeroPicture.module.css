@@ -13,7 +13,7 @@
 }
 
 .image {
-  height: 70vh;
+  max-height: 70vh;
   width: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 9999;
@@ -35,6 +35,7 @@
   padding: 50px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   animation: 0.5s entrance-right 1 ease-in;
+  position: relative;
 }
 
 .textArea > h2 {
@@ -44,6 +45,27 @@
 
 .textArea > p {
   font-size: 1.5rem;
+}
+
+.iconArea {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  font-size: 2rem;
+  display: flex;
+  gap: 20px;
+}
+
+.iconArea > a {
+  transition: transform 0.3s;
+}
+
+.iconArea > a:visited {
+  color: black;
+}
+
+.iconArea > a:hover {
+  transform: translateY(-10px) scale(1.5);
 }
 
 @keyframes entrance-up {

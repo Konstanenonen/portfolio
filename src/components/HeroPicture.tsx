@@ -1,6 +1,7 @@
 import React from "react";
 import Styles from "./HeroPicture.module.css";
 import code from "../images/code.jpg";
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 
 function HeroPicture(): JSX.Element {
   return (
@@ -29,6 +30,17 @@ function HeroPicture(): JSX.Element {
           deleniti reprehenderit? Pariatur ad beatae cumque ullam reprehenderit
           dolores non a, debitis, praesentium rem quaerat esse.
         </p>
+        <div className={Styles.iconArea}>
+          <a href="https://github.com/Konstanenonen">
+            <AiFillGithub />
+          </a>
+          <a href="https://fi.linkedin.com/in/konsta-nenonen-596767203">
+            <AiFillLinkedin />
+          </a>
+          <a href="konstanenonen@protonmail.com">
+            <AiFillMail />
+          </a>
+        </div>
       </div>
     </div>
   );
