@@ -3,6 +3,11 @@
   padding: 100px;
 }
 
-.content {
-  height: 100%;
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.normalText {
+  font-size: 1.5rem;
 }
