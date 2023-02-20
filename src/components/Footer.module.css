@@ -3,6 +3,13 @@
   padding: 100px;
 }
 
+.section1 {
+  width: 40%;
+  background-color: white;
+  color: black;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
 .title {
   font-size: 1.8rem;
   margin-bottom: 20px;
