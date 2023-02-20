@@ -1,5 +1,7 @@
 import React from "react";
 import { AiFillMail } from "react-icons/ai";
+import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+import code from "../images/code.jpg";
 import Styles from "./Footer.module.css";
 
 function Footer(): JSX.Element {
@@ -12,12 +14,23 @@ function Footer(): JSX.Element {
           benefitical!
         </p>
         <p className={Styles.normalText}>
-          <a href="konstanenonen@protonmail.com">
-            <AiFillMail /> konstanenonen@protonmail.com
+          <a href="mailto:konstanenonen@protonmail.com">
+            <AiFillMail className={Styles.icon} />
+          </a>
+          <a href="mailto:konstanenonen@protonmail.com">
+            konstanenonen@protonmail.com
           </a>
         </p>
+        <p className={Styles.normalText}>
+          <FaPhoneAlt /> +358 40 220 3152
+        </p>
+        <p className={Styles.normalText}>
+          <FaMapMarkerAlt /> Espoo, Finland
+        </p>
       </div>
-      <div className={Styles.section2}></div>
+      <div className={Styles.section2}>
+        <img src={code} />
+      </div>
     </footer>
   );
 }

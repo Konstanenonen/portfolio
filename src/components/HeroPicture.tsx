@@ -34,7 +34,7 @@ function HeroPicture(): JSX.Element {
           <a href="https://fi.linkedin.com/in/konsta-nenonen-596767203">
             <AiFillLinkedin />
           </a>
-          <a href="konstanenonen@protonmail.com">
+          <a href="mailto:konstanenonen@protonmail.com">
             <AiFillMail />
           </a>
         </div>
